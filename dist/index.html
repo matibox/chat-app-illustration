@@ -17,7 +17,7 @@
     class="bg-violet-grayish-light min-h-screen flex justify-center items-center flex-col font-rubik"
   >
     <div
-      class="bg-white h-[600px] w-3/4 rounded-3xl p-2 drop-shadow-2xl relative"
+      class="bg-white w-3/4 max-w-xs rounded-3xl p-2 drop-shadow-2xl relative"
     >
       <div
         class="w-1/2 bg-white absolute top-0 left-1/2 -translate-x-1/2 h-8 rounded-b-2xl z-10"
@@ -25,6 +25,7 @@
       <div
         class="bg-violet-grayish-light h-full rounded-3xl relative overflow-hidden"
       >
+        <!-- header -->
         <div
           class="w-full h-20 bg-gradient-to-l from-magenta-light to-violet-light rounded-b-md drop-shadow-lg flex items-end"
         >
@@ -53,6 +54,90 @@
               <div class="h-[3px] w-[3px] bg-white rounded-full"></div>
               <div class="h-[3px] w-[3px] bg-white rounded-full"></div>
             </div>
+          </div>
+        </div>
+
+        <!-- content -->
+        <div class="px-2 py-4 flex flex-col gap-3">
+          <div
+            class="bg-violet-pale w-3/4 rounded-xl rounded-bl-md bg-opacity-25 p-2 text-violet-moderate text-xs"
+          >
+            That sounds great. I'd be happy to discuss more.
+          </div>
+          <div
+            class="bg-violet-pale w-3/4 rounded-xl rounded-bl-md bg-opacity-25 p-2 text-violet-moderate text-xs"
+          >
+            Could you send over some pictures of your dog, please?
+          </div>
+          <div class="flex gap-2 w-3/4 ml-auto justify-end mt-2">
+            <img
+              class="h-14 aspect-square rounded-xl"
+              src="./images/dog-image-1.jpg"
+              alt="dog 1"
+            />
+            <img
+              class="h-14 aspect-square rounded-xl"
+              src="./images/dog-image-2.jpg"
+              alt="dog 2"
+            />
+            <img
+              class="h-14 aspect-square rounded-xl"
+              src="./images/dog-image-3.jpg"
+              alt="dog 3"
+            />
+          </div>
+          <div
+            class="bg-white w-3/4 rounded-xl rounded-br-md p-2 text-violet-dark text-xs ml-auto"
+          >
+            Here are a few pictures. She's a happy girl!
+          </div>
+          <div
+            class="bg-white max-w-3/4 rounded-xl rounded-br-md p-2 text-violet-dark text-xs ml-auto mb-2"
+          >
+            Can you make it?
+          </div>
+          <div
+            class="bg-violet-pale w-3/4 rounded-xl rounded-bl-md bg-opacity-25 p-2 text-violet-moderate text-xs"
+          >
+            She looks so happy! The time we discussed works. How long shall I
+            take her out for?
+          </div>
+          <div
+            class="bg-gradient-to-r from-magenta-light to-violet-light w-4/5 h-5 rounded-xl rounded-bl-md flex gap-3 pl-3 py-5 pr-5 items-center"
+          >
+            <div
+              class="w-4 h-4 rounded-full ring-1 ring-magenta-very-light"
+            ></div>
+            <span class="text-xs text-white">30 minute walk</span>
+            <span class="text-white font-bold ml-auto">$29</span>
+          </div>
+          <div
+            class="bg-gradient-to-r from-magenta-light to-violet-light w-4/5 h-5 rounded-xl rounded-bl-md flex gap-3 pl-3 py-5 pr-5 items-center"
+          >
+            <div
+              class="w-4 h-4 rounded-full ring-1 ring-magenta-very-light"
+            ></div>
+            <span class="text-xs text-white">1 hour walk</span>
+            <span class="text-white font-bold ml-auto">$49</span>
+          </div>
+          <div
+            class="w-full h-10 bg-white rounded-full mt-3 p-1 pl-5 flex items-center"
+          >
+            <span class="text-xs text-blue-grayish">Type a message...</span>
+            <button
+              class="outline-none border-none h-full aspect-square rounded-full bg-violet-very-dark flex items-center justify-center ml-auto"
+            >
+              <div
+                class="relative w-4 h-6 rotate-180 translate-x-1 -translate-y-[5px]"
+              >
+                <div
+                  class="absolute top-0 right-0 origin-top-right h-1/2 w-[3px] bg-white rotate-[45deg] rounded-full"
+                ></div>
+                <div
+                  class="absolute top-0 right-0 origin-bottom-right h-1/2 w-[3px] bg-white -rotate-[45deg] rounded-full translate-y-[15%]"
+                ></div>
+              </div>
+            </button>
           </div>
         </div>
       </div>
